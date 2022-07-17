@@ -15,9 +15,8 @@ MonoBehaviour:
   trackIndex: 1
   trackName: Track 2
   trackDescription: Island Road
-  nameColor: {r: 0.8867924, g: 0.7594726, b: 0, a: 0}
-  trackImage: {fileID: 21300000, guid: 9ce892b4bb2afc24bafad0278a34d4b0, type: 3}
-  sceneToLoad: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
-  bronzePrizeTime: 3000
-  silverPrizeTime: 3000
-  goldPrizeTime: 3000
+  trackImage: {fileID: 21300000, guid: 3f8f064d165cd0b4ba428aa4cfa8ce0c, type: 3}
+  sceneToLoad: {fileID: 102900000, guid: 0a691af1f5ee0e945ba3ee426f4aae79, type: 3}
+  bronzePrizeTime: 013000
+  silverPrizeTime: 010000
+  goldPrizeTime: 5000
