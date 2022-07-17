@@ -212,20 +212,23 @@ namespace UnityStandardAssets.Vehicles.Car
                     {
                         m_WheelColliders[i].motorTorque = thrustTorque;
                     }
+                    curTorqueMonitor = thrustTorque;
                     break;
 
                 case CarDriveType.FrontWheelDrive:
                     thrustTorque = accel * (m_CurrentTorque / 2f);
                     m_WheelColliders[0].motorTorque = m_WheelColliders[1].motorTorque = thrustTorque;
+                    curTorqueMonitor = thrustTorque;
                     break;
 
                 case CarDriveType.RearWheelDrive:
                     thrustTorque = accel * (m_CurrentTorque / 2f);
                     m_WheelColliders[2].motorTorque = m_WheelColliders[3].motorTorque = thrustTorque;
+                    curTorqueMonitor = thrustTorque;
                     break;
 
             }
-            curTorqueMonitor = m_CurrentTorque;
+            //curTorqueMonitor = m_CurrentTorque;
             currentSpeedMonitor = CurrentSpeed;
             footBreakMonitor = footbrake;
 
