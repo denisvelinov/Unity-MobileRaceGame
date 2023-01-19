@@ -25,7 +25,7 @@ public class Minimap : MonoBehaviour
             lineRenderer.SetPosition(i, new Vector3(TrackPath.transform.GetChild(i).transform.position.x, TrackPath.transform.GetChild(i).transform.position.y + 10, TrackPath.transform.GetChild(i).transform.position.z));
         }
 
-        lineRenderer.SetPosition(numOfPath, lineRenderer.GetPosition(11));
+        lineRenderer.SetPosition(numOfPath, lineRenderer.GetPosition(0));
 
         lineRenderer.startWidth = 22f;
         lineRenderer.endWidth = 22f;
